@@ -11,7 +11,7 @@ export default function Header() {
           alt="Mini Club logo"
           width={200}
           height={200}
-          className="w-50 h-12"
+          className="w-50 h-14"
         />
       </Link>
 
@@ -28,7 +28,7 @@ export default function Header() {
             <Link
             key={i}
             href={link.href}
-            className="hover:text-blue-600 transition-colors duration-200"
+            className="hover:text-blue-400 transition-colors duration-200"
             >
             {link.label}
             </Link>
